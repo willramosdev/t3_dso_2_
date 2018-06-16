@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App Seleção na Copa 2018</string>
+    <string name="botao_noticias">Notícias</string>
+    <string name="botao_jogadores">Jogadores</string>
+    <string name="botao_cronograma">Cronograma</string>
+    <string name="botao_videos">Vídeos</string>
+    <string name="botao_sobre">Sobre a Copa 2018</string>
+    <string name="label_noticias">Notícias</string>
+    <string name="noticia_1">Jogadores da Seleção Brasileira se destacaram na preparação para a Copa 2018</string>
+    <string name="text_noticia1">Com a goleada do Brasil em cima da Áustria, no último amistoso antes da Copa, a Seleção mostrou que está pronta para conquistar a Rússia. A preparação para o Mundial começou bem. Foram duas semanas em Londres marcadas por treinos fechados, recuperação de jogadores lesionados e uma estrutura fantástica de trabalho. </string>
+    <string name="noticia_2">Neymar mostra boa recuperação para a Copa</string>
+    <string name="text_noticia2">A grande notícia do período de preparação da Seleção Brasileira na Inglaterra. Mostrou que está totalmente recuperado de uma lesão que não foi simples. Depois de passar por uma cirurgia no pé direito, por causa de fratura, treinou normalmente. E o mais importante: jogou e fez gol na partida que marcou o seu retorno, contra a Croácia, e contra a Áustria.</string>
+    <string name="noticia_3">Cansaço, muda programação e Seleção</string>
+    <string name="text_noticia3">A comissão técnica da Seleção Brasileira mudou de ideia, e o primeiro treino em solo russo virou folga geral. Os jogadores forem liberados para passear. Dia livre em Sochi, casa da delegação durante a Copa do Mundo. A alteração na programação ocorreu logo após a chegada ao balneário ao sul do país. Em fim de temporada, Tite percebeu o seu elenco extenuado, ainda mais após a viagem desde Viena. Achou melhor descansar um dia.</string>
+</resources>

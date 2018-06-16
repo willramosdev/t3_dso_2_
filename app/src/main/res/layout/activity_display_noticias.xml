@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayNoticiasActivity">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/botao_noticias"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="533dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17">
+
+        <LinearLayout
+            android:id="@+id/scroll_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titulo_noticias1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/noticia_1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/texto_noticias1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_noticia1" />
+
+            <TextView
+                android:id="@+id/titulo_noticias2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/noticia_2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/texto_noticias2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_noticia2" />
+
+            <TextView
+                android:id="@+id/titulo_noticias3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/noticia_3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/texto_noticias3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_noticia3" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
